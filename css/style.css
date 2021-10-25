@@ -36,7 +36,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  position: absolute;
 }
 
 h1,
@@ -53,7 +52,7 @@ h1 {
 
 header {
   margin: 0;
-  padding: 12px 12px 0 80px;
+  padding: 12px 12px 12px 80px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffdab9;
 }
@@ -246,7 +245,8 @@ p {
 .row {
   display: block;
   background-color: #fff;
-  padding: 25px;
+  padding: 25px 25px 50px;
+  margin: auto;
 }
 
 .quote {
@@ -285,15 +285,15 @@ p {
 }
 
 .footer-info {
-  padding: 25px;
+  padding-bottom: 12px;
 }
 
 footer {
-  background-color: #ffdab9;
-  color: #111;
+  background-color: #e2725b;
+  color: #fff;
   font-size: 12px;
   text-align: center;
-  padding: 25px;
+  padding: 12px;
 }
 
 /* medium screen size - grid adjustment */
@@ -303,7 +303,7 @@ footer {
     grid-template-columns: repeat(3, auto);
     background-color: #fff;
     font-size: 12px;
-    padding: 10px;
+    padding: 25px 25px 50px;
   }
 
   .box-1,
@@ -430,6 +430,6 @@ footer {
     grid-template-columns: repeat(3, auto);
     background-color: #fff;
     font-size: 16px;
-    padding: 25px;
+    padding: 25px 25px 50px;
   }
 }
