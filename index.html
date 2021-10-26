@@ -23,9 +23,10 @@
     <header>
       <a href="index.html"><h1>Pottery Center</h1></a>
 
-      <div class="navbar" id="myNavbar">
+      <div class="navbar" id="myNav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
         <ul>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Events</a>
             <div class="dropdown-content">
@@ -37,7 +38,11 @@
           <li><a href=#>About</a></li>
           <li><a href=#>Contact</a></li>
         </ul>
+        </div>
       </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu-btn">&#9776;</span>
+
     </header>
 
   <main>
