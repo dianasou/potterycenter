@@ -221,7 +221,7 @@ p {
 .section {
   background-color: #fff;
   color: #111;
-  padding: 12px 12px;
+  padding: 25px 25px;
   overflow: auto;
   margin: 0;
 }
@@ -249,7 +249,7 @@ p {
 .row {
   display: block;
   background-color: #fff;
-  padding: 25px 25px 50px;
+  padding: 12px 12px 50px;
   margin: auto;
 }
 
@@ -293,8 +293,8 @@ p {
 .box-3 {
   background-color: #ffdab9;
   color: #111;
-  margin: 25px;
-  padding: 25px;
+  margin: 12px;
+  padding: 12px;
 }
 
 /* hide the images by default */
