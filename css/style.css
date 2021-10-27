@@ -9,9 +9,7 @@ accent color: #ffdab9; (peach puff)
 @media screen and (max-width: 639px) {
   .body {
     position: absolute;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: contain !important;
   }
 
   h1 {
@@ -381,6 +379,10 @@ footer {
     color: #ffdab9;
   }
 
+  body {
+    background-size: cover;
+  }
+
   a {
     color: #ffdab9;
     background-color: transparent;
@@ -545,6 +547,10 @@ footer {
     padding: 25px 25px 0 150px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffdab9;
+  }
+
+  body {
+    background-size: cover;
   }
 
   a {
