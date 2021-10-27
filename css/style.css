@@ -9,6 +9,9 @@ accent color: #ffdab9; (peach puff)
 @media screen and (max-width: 639px) {
   .body {
     position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
   }
 
   h1 {
@@ -218,7 +221,7 @@ p {
 .section {
   background-color: #fff;
   color: #111;
-  padding: 25px 25px;
+  padding: 12px 12px;
   overflow: auto;
   margin: 0;
 }
