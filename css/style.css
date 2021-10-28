@@ -9,7 +9,10 @@ accent color: #ffdab9; (peach puff)
 @media screen and (max-width: 639px) {
   .body {
     position: absolute;
-    background-size: contain !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('ceramic.jpg') #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   h1 {
@@ -269,7 +272,7 @@ p {
   width: auto;
   display: inline-block;
   border-right: 0.15em solid white; /* typwriter cursor */
-  animation: typing 4s steps(40, end), blink-caret 1s step-end infinite;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
   justify-content: center;
 }
 
