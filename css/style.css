@@ -322,10 +322,15 @@ p {
   to {opacity: 1}
 }
 
+input {
+  padding: 5px;
+}
+
 #mssg {
   height: 100px;
   width: 100%;
-  margin-bottom: 25px;
+  margin: 25px 25px 25px 0;
+  padding: 5px;
 }
 
 .footer-info {
