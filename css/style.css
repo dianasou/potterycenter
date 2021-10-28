@@ -7,14 +7,6 @@ accent color: #ffdab9; (peach puff)
 
 /* optimize for mobile screens/small less than 600px -- hide nav and use hamburger menu */
 @media screen and (max-width: 639px) {
-  .body {
-    position: absolute;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('ceramic.jpg') #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
   h1 {
     font-size: 20px;
   }
@@ -126,7 +118,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('ceramic.jpg') #fff;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   overflow-x: hidden; /* hide horizontal scrollbar */
   overflow-y: scroll; /* add vertical scrollbar */
   position: absolute;
@@ -351,6 +343,13 @@ footer {
   text-align: center;
   padding: 48px 12px;
   margin: 0;
+}
+
+/* fix background size for screen sizes 560-640(MED) */
+@media only screen and (min-width: 560px) {
+  body {
+    background-size: cover;
+  }
 }
 
 /* MEDIUM SCREEN SIZE - grid adjustment for prices */
