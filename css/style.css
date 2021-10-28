@@ -34,7 +34,7 @@ accent color: #ffdab9; (peach puff)
   .navbar {
     height: 100%;
     width: 0;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ accent color: #ffdab9; (peach puff)
 
   .overlay-content {
     position: relative;
-    top: 2%;
+    top: 10%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -58,7 +58,7 @@ accent color: #ffdab9; (peach puff)
   .menu-btn {
     position: absolute;
     left: 40px;
-    top: 6px;
+    top: 5px;
     text-decoration: none;
   }
 
