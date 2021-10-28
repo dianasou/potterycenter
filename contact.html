@@ -28,15 +28,15 @@
         <div class="overlay-content">
         <ul>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Events</a>
+            <a href="javascript:void(0)" class="dropbtn"><u>Events</u></a>
             <div class="dropdown-content">
               <a href="events.html">Monthly Events</a>
-              <a href="workshops.html">Workshops</a>
+              <a href="workshops.html"><u>Workshops</u></a>
             </div>
           </li>
           <li><a href="lessons.html">Private Lessons</a></li>
-          <li><a href="about.html"><u>About</u></a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html"><u>Contact</u></a></li>
         </ul>
         </div>
       </div>
@@ -48,37 +48,28 @@
   <main>
 
     <div class="section">
-      <h1 class="title">About: Pottery Center</h1>
+      <h1 class="title">Contact Potter Center</h1>
     </div>
 
     <div class="section">
-
-      <div class="slideshow-container">
-        <!-- images -->
-        <div class="mySlides fade">
-          <img src="img/ceramic.jpg" alt="ceramics" class="img-left">
-        </div>
-        <div class="mySlides fade">
-          <img src="img/paintbrushes.jpg" alt="paint brushes" class="img-left">
-        </div>
-        <div class="mySlides fade">
-          <img src="img/potterytrim.jpg" alt="pottery trimming" class="img-left">
-        </div>
-      </div>
-
-      <p class="about">Here at Pottery Center, we welcome people with all levels of artistic talent!
-        We just ask for enthusiasm and willingness to learn.
-        For people with more advanced knowledge of ceramics and pottery, we have advanced workshops and open studio hours to allow creative freedom.
+      <p>Feel free to contact us with any questions!
+        Fill out our contact form or call us at 512-123-456.
+        We would love to help.
       </p>
       <br>
-      <p class="about">Pottery Center started as a community for people who love creating and art.
-        Allowing people to show their artistic expression provides many benefits to individuals.
-        It can relieve stress or anxiety.
-        Being around people who enjoy similar things also provides a community for many.
-      </p>
-      <p class="about">
-      Call us for any speical events with big parties. We would love to host you!
-      </p>
+
+      <form>
+        <label for="name"><b>Full Name</b></label><br><br>
+        <input type="text" id="name" name="name" placeholder="First Last" onfocus="this.placeholder=''" required><br><br>
+
+        <label for="email"><b>Email</b></label><br><br>
+        <input type="text" id="email" name="email" placeholder="janedoe@email.com" onfocus="this.placeholder=''" required><br><br>
+
+        <label for="mssg"><b>Message</b></label><br><br>
+        <textarea id="mssg" name="mssg" placeholder="Write your message here.." onfocus="this.placeholder=''" required></textarea>
+      </form>
+
+      <a href=# class="button">Submit</a>
     </div>
 
   </main>
